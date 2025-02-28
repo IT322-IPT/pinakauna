@@ -11,6 +11,8 @@ if(isset($_POST['registration'])){
     $phoneNumber = $_POST['phoneNumber'];
     $gender = $_POST['gender'];
     $birthday = $_POST['birthday'];
+    $role = $_POST['role'];
+
 
     $_SESSION['form_data'] = $_POST;
 
@@ -36,8 +38,8 @@ if(mysqli_num_rows($result) > 0){
 }
 
 // Insert our data into the database
-$query = "INSERT INTO `users` (`firstName`, `lastName`, `email`, `password`, `phoneNumber`, `gender`, `birthday`) 
-VALUES ('$firstName', '$lastName', '$email','$password','$phoneNumber','$gender','$birthday')";
+$query = "INSERT INTO `users` (`firstName`, `lastName`, `email`, `password`, `phoneNumber`, `gender`, `birthday`, `role`) 
+VALUES ('$firstName', '$lastName', '$email','$password','$phoneNumber','$gender','$birthday', 'user')";
 
 if (mysqli_query($conn, $query)){
     $_SESSION['message'] = "Registered Successfully";

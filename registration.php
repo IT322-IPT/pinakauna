@@ -115,6 +115,18 @@
                       </div>
                       </div>  
                     </div>
+                    <!-- <div class="col-12">
+                      <div class="row mb-3">
+                      <label class="col-lg-3 col-form-label">Role</label>
+                        <div class="col-lg-9">
+                          <select class="form-select" name="role" aria-label="Default select example" required>
+                            <option selected disabled>Select role</option>
+                            <option value="user">user</option>
+                            <option value="admin">admin</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div> -->
                       <div class="col-12">
                         <button class="btn btn-primary w-100" type="submit" name="registration">Create Account</button>
                       </div>

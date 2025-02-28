@@ -65,7 +65,7 @@
                     <p class="text-center small">Enter your username & password to login</p>
                   </div>
 
-                  <form action="login.php" method="POST" class="row g-3 needs-validation" novalidate> <!-- pangutana diri -->
+                  <form action="./controller/login.php" method="POST" class="row g-3 needs-validation" novalidate> <!-- pangutana diri -->
 
                     <div class="col-12">
                       <label for="yourEmail" class="form-label">Email Address</label>
@@ -89,7 +89,7 @@
                       </div>
                     </div> -->
                     <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit">Login</button>
+                      <button class="btn btn-primary w-100" type="submit" name="login">Login</button>
                     </div>
                     <div class="col-12">
                       <p class="small mb-0">Don't have account? <a href="./registration.php">Create an account</a></p>
