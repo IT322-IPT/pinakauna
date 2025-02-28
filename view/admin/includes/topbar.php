@@ -118,10 +118,10 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../../assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <img src="../../assets/img/speedler.png" alt="" class="rounded-circle">
                 <div>
                   <h4>Adolf Hitler</h4>
-                  <p>ft?</p>
+                  <p>wanna ft?</p>
                   <p>Just now</p>
                 </div>
               </a>
@@ -132,7 +132,7 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../../assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <img src="../../assets/img/kim.png" alt="" class="rounded-circle">
                 <div>
                   <h4>Kim Kardashian</h4>
                   <p>come back</p>
@@ -146,7 +146,7 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../../assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <img src="../../assets/img/elon.png" alt="" class="rounded-circle">
                 <div>
                   <h4>Elon Musk</h4>
                   <p>kys</p>

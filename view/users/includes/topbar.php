@@ -34,7 +34,7 @@
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
             <li class="dropdown-header">
-              You have 4 new notifications
+              You have -1 billion notifications
               <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
             </li>
             <li>
@@ -118,11 +118,11 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../../assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <img src="../../assets/img/speedler.png" alt="" class="rounded-circle">
                 <div>
-                  <h4>Maria Hudson</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
-                  <p>4 hrs. ago</p>
+                  <h4>Adolf Hitler</h4>
+                  <p>ft?</p>
+                  <p>Just now</p>
                 </div>
               </a>
             </li>
@@ -132,11 +132,11 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../../assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <img src="../../assets/img/kim.png" alt="" class="rounded-circle">
                 <div>
-                  <h4>Anna Nelson</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
-                  <p>6 hrs. ago</p>
+                  <h4>Kim Kardashian</h4>
+                  <p>come back</p>
+                  <p>1 day ago</p>
                 </div>
               </a>
             </li>
@@ -146,11 +146,11 @@
 
             <li class="message-item">
               <a href="#">
-                <img src="../../assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <img src="../../assets/img/elon.png" alt="" class="rounded-circle">
                 <div>
-                  <h4>David Muldon</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
-                  <p>8 hrs. ago</p>
+                  <h4>Elon Musk</h4>
+                  <p>kys</p>
+                  <p>3 days ago</p>
                 </div>
               </a>
             </li>
@@ -170,12 +170,12 @@
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
             <img src="../../assets/img/ye.jpg" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">Ara Ocon</span>
+            <span class="d-none d-md-block dropdown-toggle ps-2">Kanye Suckondeeznuts</span>
           </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6>Ara Ocon</h6>
+              <h6>Kanye Suckondeeznuts</h6>
               <span>OF Model</span>
             </li>
             <li>
