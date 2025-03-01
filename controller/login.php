@@ -40,7 +40,7 @@ if(isset($_POST["login"])) {
             }
             exit();
         } else {
-            $_SESSION['message'] = "Invalid credentials";
+            $_SESSION['message'] = "sum ting wong";
             $_SESSION['code'] = "error";
             header("Location: ../login.php");
             exit();

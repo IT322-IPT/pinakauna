@@ -42,7 +42,7 @@ $query = "INSERT INTO `users` (`firstName`, `lastName`, `email`, `password`, `ph
 VALUES ('$firstName', '$lastName', '$email','$password','$phoneNumber','$gender','$birthday', 'user')";
 
 if (mysqli_query($conn, $query)){
-    $_SESSION['message'] = "Registered Successfully";
+    $_SESSION['message'] = "lets go";
     $_SESSION['code'] = "success";
     header("Location: ../login.php");
     exit(0);
