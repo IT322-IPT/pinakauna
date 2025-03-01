@@ -16,12 +16,10 @@ if(isset($_POST["login"])) {
         if(mysqli_num_rows($query_run) > 0) {
             $data = mysqli_fetch_assoc($query_run);
 
-
             $userID = $data["userId"];
             $fullname = $data["firstName"]." ".$data["lastName"];
             $email = $data["email"];
             $userRole = $data["role"];
-
 
             $_SESSION["auth"] = true;
             $_SESSION["role"] = $userRole;
@@ -36,25 +34,22 @@ if(isset($_POST["login"])) {
             } else if ($userRole == 'user'){
                 header("Location: ../view/users/index.php");
             } else {
-                $_SESSION['message'] = "NO ROLE MYGHAD";
+                $_SESSION['message'] = "No role found";
                 $_SESSION['code'] = "error";
                 header("Location: ../login.php");
             }
             exit();
         } else {
-            $_SESSION['status'] = "YOUR WRONG";
+            $_SESSION['message'] = "Invalid credentials";
             $_SESSION['code'] = "error";
             header("Location: ../login.php");
             exit();
         }
-
     } else {
-        $_SESSION['status'] = "Invalid Credentials";
+        $_SESSION['message'] = "Please try again";
         $_SESSION['code'] = "error";
         header("Location: ../login.php");
         exit();
     } 
-    
 }
-
 ?>

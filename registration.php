@@ -59,38 +59,38 @@
 
                   <form class="row g-3 needs-validation" action="./controller/registration.php" method="POST" novalidate>
                     <div class="col-12">
-                      <label for="yourName" class="form-label">First Name</label>
+                      <label for="firstName" class="form-label">First Name</label>
                       <input type="text" name="firstName" class="form-control" id="firstName" required>
                       <div class="invalid-feedback">Please, enter your first name</div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourName" class="form-label">Last Name</label>
+                      <label for="lastName" class="form-label">Last Name</label>
                       <input type="text" name="lastName" class="form-control" id="lastName" required>
                       <div class="invalid-feedback">Please, enter your last name</div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourEmail" class="form-label">Email Address</label>
+                      <label for="email" class="form-label">Email Address</label>
                       <input type="email" name="email" class="form-control" id="email" required>
                       <div class="invalid-feedback">Please enter a valid email adddress</div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label">Password</label>
+                      <label for="password" class="form-label">Password</label>
                       <input type="password" name="password" class="form-control" id="password" required>
                       <div class="invalid-feedback">Please enter your password</div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label">Confirm Password</label>
+                      <label for="confirmPass" class="form-label">Confirm Password</label>
                       <input type="password" name="confirmPass" class="form-control" id="confirmPass" required>
                       <div class="invalid-feedback">Password doesn't match</div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourPhoneNumebr" class="form-label">Phone Number</label>
-                      <input type="phoneNumber" name="phoneNumber" class="form-control" id="phoneNumber" required>
+                      <label for="phoneNumber" class="form-label">Phone Number</label>
+                      <input type="text" name="phoneNumber" class="form-control" id="phoneNumber" required>
                       <div class="invalid-feedback">Please enter a valid phone number</div>
                     </div>
 

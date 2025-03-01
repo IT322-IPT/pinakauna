@@ -68,17 +68,17 @@
                   <form action="./controller/login.php" method="POST" class="row g-3 needs-validation" novalidate> <!-- pangutana diri -->
 
                     <div class="col-12">
-                      <label for="yourEmail" class="form-label">Email Address</label>
+                      <label for="email" class="form-label">Email Address</label>
                       <div class="input-group has-validation">
                         <!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
-                        <input type="text" name="email" class="form-control" id="yourEmail" required>
+                        <input type="text" name="email" class="form-control" id="email" required>
                         <div class="invalid-feedback">Please enter your email address</div>
                       </div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourPassword" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="yourPassword" required>
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" name="password" class="form-control" id="password" required>
                       <div class="invalid-feedback">Please enter your password</div>
                     </div>
 
