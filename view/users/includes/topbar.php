@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION["authUser"])) {
-  header("Location: ../../../../IT322/login.php");
+  header("Location: ../../../../Lexandria-ILS/login.php");
   exit();
 }
 //Prevent browser caching
@@ -67,7 +67,7 @@ $fullName = isset($_SESSION["authUser"]["fullName"]) ? $_SESSION["authUser"]["fu
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="../../../../IT322/logout.php">
+              <a class="dropdown-item d-flex align-items-center" href="../../../../Lexandria-ILS/logout.php">
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Sign Out</span>
               </a>
