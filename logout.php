@@ -9,7 +9,7 @@ header("Pragma: no-cache");
 header("Expires: 0");
 
 // Redirect to login page
-header("Location: ../../../IT322/login.php");
+header("Location: ../../../Lexandria-ILS/login.php");
 exit();
 ?>
 <script>

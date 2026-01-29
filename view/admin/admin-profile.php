@@ -2,7 +2,7 @@
 ob_start(); // Start output buffering
 session_start();
 if (!isset($_SESSION["authUser"])) {
-    header("Location: ../../../IT322/login.php");
+    header("Location: ../../../Lexandria-ILS/login.php");
     exit();
 }
 
